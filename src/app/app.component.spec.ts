@@ -20,10 +20,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'PAGINA_WEB_ESCOBAR'`, () => {
+  it(`should have as title 'PAGINA_WEB`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('PAGINA_WEB_ESCOBAR');
+    expect(app.title).toEqual('PAGINA_WEB');
   });
 
   it('should render title', () => {
